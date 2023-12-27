@@ -5,7 +5,7 @@ import {
     BgColorsOutlined,
     ExperimentOutlined,
     ThunderboltOutlined,
-    HomeOutlined,
+    HomeFilled,
     ToolOutlined,
 } from "@ant-design/icons";
 import type {MenuProps} from "antd";
@@ -83,7 +83,7 @@ export function Navigation() {
                             target='_blank'
                             rel='noopener noreferrer'
                             style={{marginLeft: "10px"}}>
-                            <HomeOutlined style={{color: "black", fontSize: "24px"}}/>
+                            <HomeFilled style={{color: "black", fontSize: "24px"}}/>
                         </a>
                     </Col>
                 </Row>
